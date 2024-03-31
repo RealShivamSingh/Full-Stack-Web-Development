@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/sever">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Type your name" id="username">
+        </div>
+        <div>
+            <label for="Password">Password:</label>
+            <input type="password" placeholder="Enter your password"  id="Password">
+        </div>
+        <!---  Check box in form-->
+        <div>
+            <label for="Age">I am 18+</label>
+            <input type="checkbox" id="Age" name="Age" >
+        </div>
+        <div>
+            <input type="checkbox" id="class" name="class">
+            <label for="class">11th</label>
+            <input type="checkbox" id="class" name="class">
+            <label for="class">12th</label>
+        </div>
+        <!-- Radio Buttons-->
+        <div>
+            <caption>Fav Fruits:</caption>
+            <input type="radio" name="fruit" id="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="Bananna">
+            <label for="Bananna">Bannana</label>
+            <input type="radio" name="fruit" id="Mango">
+            <label for="Mango">Mango</label>
+        </div>
+        <!--Range Input-->
+        <div>
+            <input type="range" id="vol" min="0" max="100" name="vol">
+            <label for="vol">Select your vol</label>
+        </div>
+        <button type="Submit">Submit</button>
+    </form>
+    <br/>
+    <label for="feedback"></label>
+    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+    <form action="https://www.google.co.in/search">
+        <input type="text" name="q" placeholder="Search in google">
+        <button>Search</button>
+    </form>
+</body>
+</html>
