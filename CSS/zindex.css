@@ -1,0 +1,18 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+.One{
+    background-color: green;
+    position: relative;
+    z-index: 2;
+}
+.Two{
+    background-color: red;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+
+}
