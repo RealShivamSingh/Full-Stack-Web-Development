@@ -1,0 +1,17 @@
+div{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(167, 16, 16);
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+#static{
+    background-color: yellow;
+    position: relative
+    ;
+    top: 100px;
+    left: 150px;
+
+}
