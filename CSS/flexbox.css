@@ -1,0 +1,19 @@
+#flexbox{
+    height: 300px;
+    width: 80%;
+    background-color: white;
+    margin: 10px auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    
+}
+#flexbox div{
+    height: 100px;
+    width: 300px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+}
