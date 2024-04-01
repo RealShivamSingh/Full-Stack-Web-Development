@@ -1,0 +1,56 @@
+*{
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:5px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/Image/header-image.png");
+    height: 100vh;
+}
+
+.btn {
+    position:relative;
+    right: 2rem;
+}
+#english{
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    right: 1rem;
+    font-size: 1.5rem;
+}
+#SignIn{
+    font-size: 2rem;
+    background-color: red;
+    color: rgb(248, 246, 246);
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+#english:hover{
+    background-color: blue;
+}
+.mid{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin: 10rem;
+    position: relative;
+    right: 3.5rem;
+}
+h1{
+    font-size: 3rem;
+}
+.btn2 #email {
+    font-size: 2rem;
+    border: 0.5px solid white;
+    position: relative;
+    right: 1rem;
+}
+.mid #mem{
+    color: rgb(94, 101, 99);
+}
