@@ -1,0 +1,15 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color:blue;
+    letter-spacing:normal;
+}
+#log,#reg{
+    background-color: aqua;
+    
+}
+#search{
+    background-color: black;
+    color: aliceblue;
+}
