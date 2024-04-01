@@ -3,6 +3,7 @@ This repository contains the code for a full-stack web development project. It i
 
 Technologies Used 💻
 Front-end: HTML, CSS, JavaScript
+<br>
 Back-end: Node.js, Express.js
 Database: MongoDB
 
