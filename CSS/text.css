@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    
+}
+h1{
+    background-color: rgb(255, 154, 23);
+    font-weight:normal;
+}
+p{
+    text-decoration:underline;
+    line-height: 1.5;
+    letter-spacing:2.5px;
+}
