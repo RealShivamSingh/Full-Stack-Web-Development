@@ -1,0 +1,32 @@
+*{
+    background-color:black;
+    color: #D0D0D1;
+    line-height: 1.5;
+}
+h2 {
+    margin: 0 0 1rem;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    padding: 8rem 6rem;
+    align-items: center;
+}
+.grid{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+   gap: 2rem;
+}
