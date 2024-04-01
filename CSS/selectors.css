@@ -1,0 +1,28 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
+    text-decoration: none;
+}
+h1{
+    color: rgb(216, 42, 42);;
+}
+#signup{
+    background-color:white;
+}
+#login{
+    background-color: aqua;
+}
+.adam{
+    color: red;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+h3:hover{
+    color: brown;
+}
+
+h3::first-letter{
+    color: green;
+}
