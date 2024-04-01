@@ -1,0 +1,13 @@
+h1{
+    background-color: green;
+}
+@media(min-width:400px){
+    h1{
+        background-color: blue;
+    }
+}
+@media(orientation:landscape){
+    h1{
+        background-color: yellow;
+    }
+}
