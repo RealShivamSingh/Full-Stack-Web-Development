@@ -9,7 +9,7 @@
         return "Mature Ladka";
     }
     else{
-        return "Mature nhi hai";
+        return "Ladka hai abhi tu";
     }
   }
   console.log(ageCheck(5));
